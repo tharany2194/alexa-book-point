@@ -1,0 +1,11 @@
+.usedbooks {
+  padding: 60px;
+}
+.usedbooks h3 {
+  color: #cc9600;
+  font-size: 1.5rem;
+  padding: 10px;
+}
+.usedbooks p {
+  color: #747474;
+}

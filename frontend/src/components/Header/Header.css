@@ -1,0 +1,87 @@
+.header{
+    height: 54vw;
+    width: 100%;
+    background: url('/header-img.png') no-repeat;
+    background-size: cover;
+    position: relative;
+    padding: 30px ;
+}
+.header-contents{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: fit-content; 
+    max-width: 80%;
+    margin: 0 80px;
+    gap: 1.5vw;
+    animation: fadeIn 3s;
+}
+.header-heading{
+    font-size: 3rem;
+    color: #FF7700;
+    margin: 40px 0px 10px 0px;
+}
+.header-text{
+    font-size: 1.5rem;
+    color: white;
+    line-height: 2;
+    max-width: 70%;
+    
+   
+}
+.header-contents button{
+    
+    color: white;
+    padding: 10px 20px;
+    margin: 30px;
+    font-size: 1rem;
+    border: 1px solid white;
+    transition: 0.3s;
+    border-radius: 50px;
+    background: transparent;
+    
+
+}
+.header-contents button:hover{
+    margin:20px;
+    background:#CC9600 ;
+
+}
+.header-profile{
+    
+    position: relative;
+    cursor: pointer;
+}
+.profile-dropdown{
+    position: absolute;
+   
+    display: none;
+    right: 0;
+    z-index: 1;
+}
+.header-profile:hover .profile-dropdown{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #fff2ef;
+    padding: 12px 25px;
+    border-radius: 4px;
+    border: 1px solid #CC9600;
+    outline: 2px solid white;
+    list-style: none;
+    
+}
+.profile-dropdown li{
+   display: flex;
+   align-items: center;
+   gap: 10px;
+   cursor: pointer;
+}
+.profile-dropdown img {
+    width:20px;
+}
+.profile-dropdown li:hover{
+    color: #CC9600;
+}

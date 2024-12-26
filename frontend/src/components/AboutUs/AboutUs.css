@@ -1,0 +1,33 @@
+.about-content{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+}
+.about-content h3{
+    color: #CC9600;
+    padding: 10px;
+}
+.about-content p{
+    font-size: 20px;
+    color:#747474 ;
+    padding: 20px;
+    
+}
+.contact-info{
+    display: flex;
+    gap: 200px;
+    align-items: start;
+    padding: 50px;
+}
+.contact-info h3{
+    color: #CC9600;
+    padding: 10px 0px;
+}
+.contact-info dt{
+    color: black;
+    padding: 5px;
+}
+.contact-info dd{
+    color:#747474;
+    padding: 5px 10px;
+}

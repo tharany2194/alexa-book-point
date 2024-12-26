@@ -1,0 +1,72 @@
+.book-item{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px #00000015;
+    transition: 0.3s;
+    animation: fadeIn 1s;
+    padding-bottom: 20px;
+    border: 1px solid #747474;
+}
+.book-item-image{
+    width:100%;
+    object-fit: contain;
+    height: 200px;
+    width: 100px;
+    padding: 2px;
+}
+.book-item-name{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    padding: 20px;
+    align-items: center;
+}
+.book-item-button-img{
+    height: 1rem;
+    width: 1rem;
+   margin: 8px 5px ;
+}
+.book-item-button-text{
+    padding: 5px ;
+    color: white;
+    font-size: 0.8rem;
+    color: black;
+}
+.book-item button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.book-item-price{
+  
+    color:#CC9600;
+}
+
+.book-item-counter{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 6px;
+    
+    border-radius: 50px;
+    background-color: white;
+   
+    
+
+}
+.book-item-counter .icons{
+    height: 20px;
+    width: 20px;
+}
+.book-item hr{
+
+    margin: 10px 0px;
+    height: 2px;
+    background-color:black;
+    border: none;
+}
