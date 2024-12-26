@@ -82,17 +82,17 @@ else{
               <p>Subtotal</p>
               <p>${getTotalCartAmount()}</p>
             </div>
-          
+            <hr />
             <div className="cart-total-details">
               <p>Delivery Fee</p>
               <p>${2}</p>
             </div>
-            
+            <hr />
             <div className="cart-total-details">
               <b>Total</b>
               <b>${getTotalCartAmount()+2}</b>
             </div>
-           
+          
           </div>
           <button type='submit'>PROCEED TO PAYMENT</button>
         </div>

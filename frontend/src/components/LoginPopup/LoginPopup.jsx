@@ -76,14 +76,18 @@ const LoginPopup = ({setShowLogin}) => {
          <div className="login-popup-inputs">
             {currState==="Login"
             ?<div>
+              
             <input 
+            className='input-style'
             name='email' 
             onChange={onChangeHandler} 
             value={data.email} type="text" 
             placeholder='Your Email' 
             required />
+            
 
             <input 
+            className='input-style'
             name='password' 
             onChange={onChangeHandler} 
             value={data.password} 
@@ -95,6 +99,7 @@ const LoginPopup = ({setShowLogin}) => {
             :<div> 
 
             <input 
+            className='input-style'
             name ='name' 
             onChange={onChangeHandler} 
             value={data.name} 
@@ -103,6 +108,7 @@ const LoginPopup = ({setShowLogin}) => {
             required />
 
             <input 
+            className='input-style'
             name='email' 
             onChange={onChangeHandler} 
             value={data.email} 
@@ -113,6 +119,7 @@ const LoginPopup = ({setShowLogin}) => {
            
 
             <input 
+            className='input-style'
             name='password' 
             onChange={onChangeHandler} 
             value={data.password} 
@@ -121,6 +128,7 @@ const LoginPopup = ({setShowLogin}) => {
             required />
 
             <input 
+            className='input-style'
             name='confirmPassword'
             type="text" 
             placeholder='Re-type Password' 

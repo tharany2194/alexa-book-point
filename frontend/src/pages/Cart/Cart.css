@@ -27,7 +27,7 @@
     
 }
 .cart-total{
-    flex: 1;
+    width:fit-content;
     display: flex;
     flex-direction: column;
     justify-content: center;
