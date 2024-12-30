@@ -9,7 +9,7 @@ import Footer from './components/Footer/Footer'
 import { useState } from 'react'
 import LoginPopup from './components/LoginPopup/LoginPopup'
 import PlaceOrder from './pages/PlaceOrder/PlaceOrder'
-import VerifyEmail from './pages/VerifyEmail/VerifyEmail'
+
 import AboutUs from './components/AboutUs/AboutUs'
 const App = () => {
 
@@ -24,7 +24,6 @@ const App = () => {
         <Route path='/' element={<Home  setShowLogin={setShowLogin}/>} />
         <Route path='/cart' element={<Cart /> } />
         <Route path='/order' element={<PlaceOrder /> } />
-        <Route path='/verify-email' element={<VerifyEmail /> } />
         <Route path='/aboutus' element={<AboutUs /> } />
         <Route path='/usedbooks' element={<UsedBooks />} />
         

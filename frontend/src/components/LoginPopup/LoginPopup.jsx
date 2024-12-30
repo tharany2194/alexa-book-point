@@ -91,7 +91,7 @@ const LoginPopup = ({setShowLogin}) => {
             name='password' 
             onChange={onChangeHandler} 
             value={data.password} 
-            type="text" 
+            type="password" 
             placeholder='Password' 
             required />
             </div>
@@ -123,14 +123,14 @@ const LoginPopup = ({setShowLogin}) => {
             name='password' 
             onChange={onChangeHandler} 
             value={data.password} 
-            type="text" 
+            type="password" 
             placeholder='Password' 
             required />
 
             <input 
             className='input-style'
             name='confirmPassword'
-            type="text" 
+            type="password" 
             placeholder='Re-type Password' 
             onChange={onChangeHandler}
             value={data.confirmPassword}
